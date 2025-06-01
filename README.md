@@ -275,27 +275,27 @@ notebooks/7_test.ipynb
 
 To further improve this project, the following enhancements are planned or recommended:
 
-- ** Model Improvement**
+- **Model Improvement**
   - Try additional classifiers (e.g., LightGBM, CatBoost, Ensemble Stacking)
   - Use SHAP or LIME for explainability
   - Optimize threshold using cost-sensitive evaluation
 
-- ** Application Features**
+- **Application Features**
   - Add user authentication for personalized tracking
   - Enable batch predictions via CSV upload
   - Display confidence scores and top contributing features for each prediction
 
-- ** Deployment**
+- **Deployment**
   - Deploy on a scalable platform (e.g., AWS, Azure, GCP)
   - Integrate CI/CD for model retraining on new data
   - Use Docker Compose or Kubernetes for multi-service orchestration
 
-- ** Monitoring & Feedback**
+- **Monitoring & Feedback**
   - Implement drift detection and alerting (e.g., with Evidently or W&B Triggers)
   - Collect real-world feedback from users and retrain periodically
   - Track real-time usage and performance in production
 
-- ** UI/UX Enhancements**
+- **UI/UX Enhancements**
   - Improve mobile responsiveness and accessibility
   - Add multi-language support for wider reach
   - Embed visualizations using interactive Plotly or Streamlit charts
